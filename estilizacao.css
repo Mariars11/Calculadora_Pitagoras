@@ -1,0 +1,66 @@
+*{
+    position: relative;
+}
+#titulo{
+    color: white;
+    text-shadow: 2px 1px 1px black, -1px 2px 2px black, 1px -1px 1px black;
+    text-align: center;
+}
+
+#triangulo{
+    width: 230px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+}
+
+body{
+    background-color: rgba(224, 38, 125, 0.616);
+}
+
+input::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+input{
+    width: 40px;
+}
+
+#entradaA{
+    text-align: center;
+    left: 500px;
+    bottom: 100px;
+}
+
+#entradaB{
+    text-align: center;
+    left: 580px;
+    top: 8px;
+}
+#botao{
+    background-color: rgba(76, 0, 130, 0.5);
+    width: 90px;
+    height: 50px;
+    font-weight: bold;
+    left: 800px;
+    bottom: 160px;
+}
+
+#resultado{
+    width: 40px;
+    background-color: rgb(160, 22, 9);
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 630px;
+    bottom: 80px;
+}
+
+#identificacao{
+    color: white;
+    text-shadow: 2px 1px 1px black, -1px 2px 2px black, 1px -1px 1px black;
+    left: 850px;
+    bottom: 30px;
+}
